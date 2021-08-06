@@ -5,3 +5,7 @@ from django.http import HttpResponse
 # first view
 def index(request):
     return HttpResponse('Hello World')
+
+# second view
+def item(request):
+    return HttpResponse('<h1>This is an item view</h1>')
